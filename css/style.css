@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(229, 155, 223);
+    color: chocolate;
+}
+
+h1{
+    font-size:xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    color: crimson;
+    text-align: center;
+    
+}
+
+h2{
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+figure.foto-capa{
+    border: 8px solid lavender;
+    box-shadow: 1px 1px 4px black;
+    position:relative;
+    color: lavender;
+    }
+
+figure.foto-capa img{
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-capa figcaption{
+    opacity: 0;
+    position:absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+figure.foto-capa:hover figcaption{
+    opacity: 1;
+}

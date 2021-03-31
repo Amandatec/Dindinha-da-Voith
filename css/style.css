@@ -38,6 +38,7 @@ figure.foto-capa figcaption{
     height: 100%;
     padding: 10px;
     box-sizing: border-box;
+    transiction opacity: 1s;
 }
 
 figure.foto-capa:hover figcaption{

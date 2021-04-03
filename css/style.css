@@ -1,15 +1,18 @@
 body{
-    background-color: rgb(229, 155, 223);
+    background-color: aquamarine;
     color: chocolate;
 }
 
-h1{
+.paginainicial{
+    background-color: blue;
+}
+
+ h1{
     font-size:xx-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style:italic;
     color: crimson;
-    text-align: center;
-    
+    text-align: left;  
 }
 
 h2{
@@ -38,9 +41,32 @@ figure.foto-capa figcaption{
     height: 100%;
     padding: 10px;
     box-sizing: border-box;
-    transiction opacity: 1s;
+    transition: 1s;
 }
 
 figure.foto-capa:hover figcaption{
     opacity: 1;
+}
+/*Configurando o menu*/
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 400px;
+}
+
+nav#menu li{
+    background-color: cornsilk;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav#menu li:hover {
+    background-color: darkslategray;
 }

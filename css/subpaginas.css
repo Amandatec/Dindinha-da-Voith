@@ -16,7 +16,7 @@ body#meninos {
 }
 
 body#acessorios {
-    background-color: rgb(165, 231, 209);
+    background-color: lemonchiffon;
     margin: 20px;
     padding: 10px 10px 10px 10px;
     box-shadow:  0px 0px 10px black;
@@ -25,7 +25,7 @@ body#acessorios {
 
 body#nossahistoria {
     background-color: lightseagreen;
-    margin: 100px 20px 100px 20px;
+    margin: 60px 20px 80px 20px;
     padding: 10px 10px 10px 10px;
     box-shadow:  0px 0px 10px black;
     text-align: center;
@@ -39,7 +39,7 @@ body#nossahistoria p{
 
 body#faleconosco {
     background-color: lightseagreen;
-    margin: 80px 80px 80px 80px;
+    margin: 15px 20px 15px 20px;
     padding: 10px 20px 10px 20px;
     box-shadow:  0px 0px 10px black;
     text-align: center;
@@ -50,13 +50,16 @@ body#faleconosco h1 {
     font-family: cursive;
 } 
 
-div#menu {
-    padding: 0px 0px 0px 50px;
-    margin: 10px 10px 10px 0px;
+nav#menu {
+    margin: 20px 30px 10px 30px;
+    padding: 0px 100px 0px 100px;
 }
+
 
 img#iconetelefone{
     width: 20%;
+    height: auto;
+    padding: 0px 20px 0px 20px;
 }
 
 footer {
@@ -87,13 +90,20 @@ h2 {
     font-weight: bold;
     font-size: 200%;
     box-shadow:  0px 0px 10px black;
-    padding-left: 100px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
 }
 
 img {
-    width: 25%;
-    height: 15%;
+    width: 293px;
+    height: 290px;
     margin: 10px;
     padding: 10px;
     box-shadow: 1px 1px 10px black;
+    object-position: center;
+    background-color: whitesmoke;
+}
+
+img:hover {
+    opacity: 1;
+   background-color:  rgb(199, 208, 218);
 }
